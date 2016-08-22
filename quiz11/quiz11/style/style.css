@@ -1,0 +1,125 @@
+﻿body {
+}
+.profiltr {
+width:40px;
+height:40px;
+
+}
+
+#mainContainer {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(147, 217, 235);
+}
+
+#top {
+    width: 1000px;
+    height: 100px;
+    background-color: #969696;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#right {
+    width: 200px;
+    height: 420px;
+    float: right;
+    background-color: #d8d6d6;
+}
+
+#content {
+    width: 800px;
+    height: 420px;
+    float: left;
+}
+
+#bottom {
+    width: 1000px;
+    height: 100px;
+    background-color: #ebe7e7;
+    margin-top: 420px;
+}
+
+#top span {
+    border-bottom-color: white;
+    color: #ffd800;
+    font-family: Gabriola;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 450px;
+}
+
+#right a {
+    text-decoration: none;
+    color: white;
+}
+
+    #right a:hover {
+        color: #ffd800;
+    }
+
+#nav .menu li {
+    float: left;
+    color: #ffd800;
+    margin-left: 150px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    color: #ffd800;
+    text-decoration: none;
+}
+
+#top #nav .menu li a:hover {
+    color: #ffd800;
+}
+
+#bottom p {
+    color: black;
+    text-align: center;
+}
+
+.hakkındadiv a{
+    float: left;
+    margin-left: 65px;
+    color: #808080;
+}
+
+.hakkındadiv a:hover {
+        background-color: rgb(147, 217, 235);
+    }
+
+.duyurudiv {
+    float: left;
+    margin-left: 55px;
+    color: #808080;
+}
+
+.duyurudiv:hover {
+        background-color: rgb(147, 217, 235);
+    }
+
+#nav .menu li.konular-wrap {
+    position: relative;
+}
+#nav .menu li.konular-wrap .konular .lstkonudiv {
+margin-left:-635px;
+width:10px;  
+}
+
+#nav .menu li.konular-wrap .konular {
+        position: absolute;
+        display: none;
+        float: left;
+        width: 150px;
+        height:auto;
+        background-color: #ebe7e7;
+       
+    }
+.profilresim {
+        width: 40px;
+        height:40px;
+}
+
+

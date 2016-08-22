@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Anasayfa.Master.cs" Inherits="quiz11.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title>SEHERTOSHİBABLOG</title>
+    <link href="style/style.css" rel="stylesheet" />
+    <script src="js/jquery-3.1.0.min.js">
+    </script>
+    <script type="text/javascript">
+        $("document").ready(function () {
+            $(".konular-wrap").mouseover(function () {
+                $(".konular").css("display", "block")
+            })
+            $(".konular-wrap").mouseleave(function () {
+                $(".konular").css("display", "none")
+            })
+            var sozdiv = $("#sozdiv");
+            startAnimation();
+            function startAnimation() {
+               
+                sozdiv.fadeToggle(5000,startAnimation);
+            }
+            setInterval(function () { setColor() }, 3000);
+            function setColor() {
+                var x = document.body;
+                x.style.backgroundColor = x.style.backgroundColor == "yellow" ? "aqua" : "yellow";
+            }
+
+        })
+        <%--var myV = setInterval(function () { SozDegis() }, 3000);
+        function SozDegis() {
+
+            var a = document.getElementById("sozlerrepeater");
+            a.innerHTML=<%#Eval("soz")%>;
+        }--%>
+    </script>
+    <META HTTP-EQUIV="refresh" content= "4"; url="Anasayfa.aspx"; target=""/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <div id="mainContainer">
+                    <div id="top" class="top">
+                        <span><b>Günün Sözü</b></span>
+                        <div id="sozdiv" style="text-align: center; color: white;">
+
+                            <asp:Repeater runat="server" ID="sozlerrepeater">
+                                <ItemTemplate><%#Eval("soz")%></ItemTemplate>
+                            </asp:Repeater>
+
+                        </div>
+                        <nav id="nav">
+                            <ul class="menu">
+                                <li class="konular-wrap">
+                                    <a href="Konular.aspx">Konular</a>
+                                    <div class="konular">
+                                        <ul>
+                                            <li>
+                                                <asp:DataList ID="lstkonu" runat="server">
+                                                    <ItemTemplate>
+                                                        <div class="lstkonudiv">
+                                                            <a href="Konular.aspx?baslıkid=<%#Eval("ID") %>">
+                                                                <asp:Label Text='<%#Eval("baslık")%>' runat="server" /></a>
+                                                        </div>
+                                                    </ItemTemplate>
+                                                </asp:DataList>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="ProfilSayfası.aspx">Profil</a></li>
+                                <li><a href="İletişim.aspx">İletişim</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div id="right">
+                        <a href="Hakkında.aspx"><b>Hakkında</b></a>
+                        <hr />
+                        <asp:ListView ID="lsthakkında" runat="server">
+                            <ItemTemplate>
+                                <div class="hakkındadiv">
+                                    <a href="Hakkında.aspx">
+                                        <asp:Label Text='<%#Eval("baslık")%>' runat="server" /></a>
+                                </div>
+                            </ItemTemplate>
+                        </asp:ListView>
+
+
+                        <a href="DuyuruSayfası.aspx"><b>Duyurular</b></a>
+                        <hr />
+                        <marquee scrollamount="1" scrolldelay="60" direction="up" loop="99999" width="200" height="100" onmouseout="this.start()" onmouseover="this.stop()"> 
+                        <div>
+               
+                            <asp:ListView ID="lstDuyuru" runat="server">
+                                <ItemTemplate>
+                                    <div class="duyurudiv">
+                                       
+                                    <a href="DuyuruSayfası.aspx"><%#Eval("baslık")%></a>
+                                        
+                                    </div>
+                                    
+                                </ItemTemplate>
+                            </asp:ListView>
+                        </div></marquee>
+                    </div>
+
+                    <div id="content" class="content">
+
+                        <asp:ContentPlaceHolder ID="contentplace" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div id="bottom" class="bottom">
+                        <p><b>By ESS<img src="images/Smiley.svg.png" style="width: 25px; height: 25px;" /></b></p>
+                        <p>Her Hakkı Saklıdır.</p>
+                        <p>© 2016</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

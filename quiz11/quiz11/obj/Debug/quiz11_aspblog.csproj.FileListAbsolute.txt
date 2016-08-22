@@ -1,0 +1,48 @@
+c:\users\administrator\documents\visual studio 2013\Projects\quiz11\quiz11\bin\quiz11.dll.config
+c:\users\administrator\documents\visual studio 2013\Projects\quiz11\quiz11\bin\quiz11.dll
+c:\users\administrator\documents\visual studio 2013\Projects\quiz11\quiz11\bin\quiz11.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\quiz11\quiz11\obj\Debug\quiz11_aspblog.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\quiz11\quiz11\obj\Debug\quiz11.dll
+c:\users\administrator\documents\visual studio 2013\Projects\quiz11\quiz11\obj\Debug\quiz11.pdb
+D:\quiz11\quiz11\quiz11\bin\quiz11.dll.config
+D:\quiz11\quiz11\quiz11\bin\quiz11.dll
+D:\quiz11\quiz11\quiz11\bin\quiz11.pdb
+D:\quiz11\quiz11\quiz11\obj\Debug\quiz11_aspblog.csprojResolveAssemblyReference.cache
+D:\quiz11\quiz11\quiz11\obj\Debug\quiz11.dll
+D:\quiz11\quiz11\quiz11\obj\Debug\quiz11.pdb
+C:\Users\sehertosh\Desktop\işkur bilişim egitim\quiz11\quiz11\quiz11\bin\quiz11.dll.config
+C:\Users\sehertosh\Desktop\işkur bilişim egitim\quiz11\quiz11\quiz11\bin\quiz11.dll
+C:\Users\sehertosh\Desktop\işkur bilişim egitim\quiz11\quiz11\quiz11\bin\quiz11.pdb
+C:\Users\sehertosh\Desktop\işkur bilişim egitim\quiz11\quiz11\quiz11\obj\Debug\quiz11_aspblog.csprojResolveAssemblyReference.cache
+C:\Users\sehertosh\Desktop\işkur bilişim egitim\quiz11\quiz11\quiz11\obj\Debug\quiz11.dll
+C:\Users\sehertosh\Desktop\işkur bilişim egitim\quiz11\quiz11\quiz11\obj\Debug\quiz11.pdb
+C:\Users\Administrator\Desktop\quiz11-yeni\quiz11\quiz11\bin\quiz11.dll.config
+C:\Users\Administrator\Desktop\quiz11-yeni\quiz11\quiz11\bin\quiz11.dll
+C:\Users\Administrator\Desktop\quiz11-yeni\quiz11\quiz11\bin\quiz11.pdb
+C:\Users\Administrator\Desktop\quiz11-yeni\quiz11\quiz11\obj\Debug\quiz11_aspblog.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\quiz11-yeni\quiz11\quiz11\obj\Debug\quiz11.dll
+C:\Users\Administrator\Desktop\quiz11-yeni\quiz11\quiz11\obj\Debug\quiz11.pdb
+C:\Users\sehertosh\Desktop\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.dll.config
+C:\Users\sehertosh\Desktop\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.dll
+C:\Users\sehertosh\Desktop\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.pdb
+C:\Users\sehertosh\Desktop\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11_aspblog.csprojResolveAssemblyReference.cache
+C:\Users\sehertosh\Desktop\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11.dll
+C:\Users\sehertosh\Desktop\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11.pdb
+D:\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.dll.config
+D:\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.dll
+D:\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.pdb
+D:\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11_aspblog.csprojResolveAssemblyReference.cache
+D:\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11.dll
+D:\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11.pdb
+F:\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.dll.config
+F:\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.dll
+F:\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.pdb
+F:\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11_aspblog.csprojResolveAssemblyReference.cache
+F:\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11.dll
+F:\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11.pdb
+C:\Users\Administrator\Desktop\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.dll.config
+C:\Users\Administrator\Desktop\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.dll
+C:\Users\Administrator\Desktop\quiz11-yepyeni\quiz11\quiz11\bin\quiz11.pdb
+C:\Users\Administrator\Desktop\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11_aspblog.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11.dll
+C:\Users\Administrator\Desktop\quiz11-yepyeni\quiz11\quiz11\obj\Debug\quiz11.pdb
